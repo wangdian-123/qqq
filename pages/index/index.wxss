@@ -1,0 +1,41 @@
+/**index.wxss**/
+.i1{
+  width: 750rpx;
+  height: 60rpx;
+  background-color: #66ccff;
+  display: flex;
+}
+.i2{
+  font-size: 18px;
+  color: azure;
+  margin-left: 35rpx;
+}
+.i3{
+  font-size: 18px;
+  color: azure;
+  margin-left: 35rpx;
+  border-bottom:2px solid white ;
+}
+.swiper-item{
+  width: 700rpx;
+  height: 300rpx;
+  background-color: teal;
+  margin-left: 25rpx;
+  margin-top: 20rpx;
+}
+image{
+  width: 700rpx;
+  height: 300rpx;
+}
+.i4{
+  width: 700rpx;
+  height: 200rpx;
+  background-color: turquoise;
+  margin-left: 25rpx;
+  margin-top: 20rpx;
+}
+.i5{
+  width: 500rpx;
+  height: 200rpx;
+  background-color: thistle;
+}

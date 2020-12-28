@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="i1">
+  <view class="i3">国内</view>
+  <view class="i2">国际</view>
+  <view class="i2">财经</view>
+  <view class="i2">娱乐</view>
+  <view class="i2">军事</view>
+  <view class="i2">体育</view>
+  <view class="i2">其他</view>
+</view>
+<swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item {{item}}">
+              <image src='{{item}}'></image>
+            </view>
+          </swiper-item>
+        </block>
+ </swiper>
+ <view class="i4">
+   <view class="i5">
+     <view>新研究称8.72℃最适合信管病毒传播  病毒学专家：样本量不足</view>
+     <view class="i7">河南新闻广播  2020-2-4</view>
+    </view>
+   <view class="i6"></view>
+ </view>
